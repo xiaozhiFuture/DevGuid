@@ -1,0 +1,33 @@
+{
+    "title": "DevGuid",
+    "author": "XiaozhiFuture",
+    "output.name": "site",
+    "gitbook": "3.2.3",
+    "root": "./",
+    "plugins": [
+		
+        "-lunr",
+        "-search",
+        "-highlight",
+        "-livereload",
+        "search-plus@^0.0.11",
+        "advanced-emoji@^0.2.1",
+        "include-codeblock@^3.0.2",
+        "splitter@^0.0.8",
+
+		"chapter-fold"
+    ],
+
+    "pluginsConfig": {
+		
+        "theme-default": {
+            "showLevel": true
+        },
+    
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © XiaozhiFuture 2019-2020",
+            "modify_label": "最后修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
+}
